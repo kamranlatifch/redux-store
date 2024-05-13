@@ -1,4 +1,5 @@
 import { ADD_TO_CART } from "../constants";
+import { REMOVE_TO_CART } from "../constants";
 
 export const addToCart = (data) => {
   console.log("Onclick Data in Action", data);
@@ -8,9 +9,8 @@ export const addToCart = (data) => {
   };
 };
 
-export const removeToCart = (data) => {
+export const removeToCart = () => {
   return {
-    type: "REMOVE_TO_CART",
-    data: data,
+    type: REMOVE_TO_CART,
   };
 };

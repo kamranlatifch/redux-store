@@ -29,12 +29,16 @@
 }
 /*  */
 .btn-wrapper button {
-  background-color: red;
+  background-color: #00ff1a;
   border: 0px;
   padding: 10px;
   border-radius: 4px;
   color: #fff;
   box-shadow: #333 0px 1px 5px;
+}
+.btn-wrapper button.remove-cart-btn{
+  background-color: red;
+
 }
 .img-wrapper img {
   width: 100px;

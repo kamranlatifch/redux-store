@@ -19,11 +19,18 @@ const Home = (props) => {
         </div>
         <div className="btn-wrapper item">
           <button
+            className=""
             onClick={() =>
               props.addToCartHandler({ name: "I-Phone 14", price: 1000 })
             }
           >
             Add To Cart
+          </button>
+          <button
+            className="remove-cart-btn"
+            onClick={() => props.removeToCartHandler()}
+          >
+            Remove To Cart
           </button>
         </div>
       </div>
