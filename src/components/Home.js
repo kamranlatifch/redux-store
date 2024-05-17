@@ -1,7 +1,7 @@
 import React from "react";
 
 const Home = (props) => {
-  console.log("Props in Home Component are", props?.cardData);
+
   return (
     <div>
       <div className="add-to-cart">
