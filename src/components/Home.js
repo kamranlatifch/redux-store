@@ -8,7 +8,7 @@ const Home = (props) => {
         <span className="cart-count">{props?.cardData?.length}</span>
         <img src="https://static.vecteezy.com/system/resources/thumbnails/000/496/007/small/Ecommerce_998.jpg" />
       </div>
-      <h1>HOME COMPONENT</h1>
+      <h1>HOME--COMPONENT</h1>
       <div className="cart-wrapper">
         <div className="img-wrapper item">
           <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg" />
